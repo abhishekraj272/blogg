@@ -26,13 +26,13 @@ body{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgba(17,100,102,.4);
   color: black;
 }
 
 /* Style the "active" element to highlight the current page */
 .topnav a.active {
-  background-color: #2196F3;
+  background-color: rgba(17,100,102,1);
   color: white;
 }
 
@@ -113,4 +113,39 @@ body {
 }
 #mainb{
   display: flex;
+}
+
+.blog{
+  display: flex;
+}
+.blogcontent{
+  background-color: rgba(17,100,102,.2);
+  padding: 20px;
+  margin-top: 20px;
+  width: 80%;
+}
+#comment{
+  width: 20%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+#commentbar{
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  height: 28px;
+
+}
+#btn{
+  background-color:rgba(17,100,102,1) ;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+    border-radius: 16px;
+
 }
